@@ -21,7 +21,7 @@ class ApiKeyView(views.APIView):
             )
             data = {
                 "token": token.key,
-                "wms_token": token.wms_key,
+                # "wms_token": token.wms_key,
                 "created": created,
                 "last_modified": token.last_modified,
             }
@@ -43,7 +43,7 @@ class ApiKeyView(views.APIView):
             )
             data = {
                 "token": token.key,
-                "wms_token": token.wms_key,
+                # "wms_token": token.wms_key,
                 "created": created,
                 "last_modified": token.last_modified,
             }
